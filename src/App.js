@@ -4,7 +4,6 @@ import './App.css';
 import { CardList } from './components/card-list/card-list.component';
 import { SearchBox } from './components/search-box/search-box.component';
 
-
 class App extends Component {
 
   constructor () {
@@ -14,7 +13,7 @@ class App extends Component {
       monsters: [],
       searchField: ""
     }
-    // this.handleChange = this.handleChange.bind(this)
+
   }
 
   componentDidMount() {
@@ -48,6 +47,5 @@ class App extends Component {
     )
   }
 }
-
 
 export default App;
